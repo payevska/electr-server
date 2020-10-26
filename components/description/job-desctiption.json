@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_description_price_descriptions",
+  "info": {
+    "name": "price-desctiption",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "measurement": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "integer",
+      "required": true
+    },
+    "panel": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "brick": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    }
+  }
+}
