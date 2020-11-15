@@ -15,7 +15,7 @@
     },
     "desc": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "description.job-desctiption",
       "required": true
     }
